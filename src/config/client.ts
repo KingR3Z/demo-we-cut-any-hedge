@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "3",
 
   // Services
   services: [
@@ -79,9 +79,9 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Steve Gilbert", rating: 5, text: "Couldnt of asked for better service. Turned up on time and did the agreed work faster than expected. Polite and charming throughout and was suprised at the time they took to tidy up the little bits that often get overlooked. Will certainly be using t", date: "7 years ago" },
+    { name: "Leroy James Frampton", rating: 5, text: "Can’t fault this company. Reliable fair price good communication and an excellent job done on our hedge. ", date: "5 years ago" },
+    { name: "Mark Greenslade", rating: 5, text: "Great service , left everything clean and tidy at really reasonable prices. Thanks Mark Garrett a definite recommendation from me. ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
